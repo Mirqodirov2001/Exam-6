@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../../../components/Ui/Card';
 import course_ellipse from '../../../assets/images/course_ellipse.svg';
-import coursesApi from '../../../service/Courses';
+import coursesApi from '../../../service/courses'
 import './style.scss';
 
 const Courses = () => {

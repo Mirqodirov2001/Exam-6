@@ -3,7 +3,7 @@ import './style.scss';
 
 const Intro = () => {
     return (
-        <>
+        
             <section id='intro'>
                 <div className="container mx-auto px-5">
                     <p className='top_text'>
@@ -29,7 +29,7 @@ const Intro = () => {
                     </div>
                 </div>
             </section>
-        </>
+        
     )
 }
 

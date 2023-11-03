@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import logo from "../../assets/images/logo.svg";
 import './style.scss';
 import { Button, Checkbox, Form, Input, message } from 'antd';
 import userApi from '../../service/user';
@@ -12,7 +11,7 @@ const SignUp = () => {
   const success = () => {
     messageApi.open({
       type: 'success',
-      content: 'Muvaffaqiyatli ro\'yhatdan o\'tdingiz!',
+      content: 'Ro\'yhatdan o\'tdingiz!',
     });
   };
   const error = () => {
@@ -58,8 +57,7 @@ const SignUp = () => {
       <div className='signIn_container shadow-lg'>
         <Link to='/' className='signIn_header'>
           {contextHolder}
-          <img src={logo} className='logo' alt="Logo" />
-          <p>Ebgub.uz</p>
+          <p><span className=' text-red-700'>W</span>.Ebgub.uz</p>
         </Link>
 
         <div className='form'>

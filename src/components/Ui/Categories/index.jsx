@@ -9,7 +9,7 @@ import './style.scss';
 
 const CategoryCard = () => {
     return (
-          <>
+        <>
             <div><h1 className=' text-center text-[45px] font-extrabold text-[#2AAA94]'><span className=' font-extrabold text-[#323232]'>Top</span> Categories</h1></div>
             <p className=' text-center font-medium text-[25px] text-[#4E596B] mt-[42px] text-["Saira"] mb-[100px]'>12,000+ unique online course list designs</p>
             <div className='flex gap-5 justify-center'>
@@ -28,9 +28,9 @@ const CategoryCard = () => {
                         <img src={img1} alt="Marketing icon" />
                     </div>
 
-                    <h4>Digtal Marketing</h4>
+                    <h4>Web Development</h4>
 
-                    <p>25 Courses</p>
+                    <p>16 Courses</p>
                 </div>
 
                 <div className='category_card cursor-pointer'>
@@ -38,9 +38,9 @@ const CategoryCard = () => {
                         <img src={img2} alt="Marketing icon" />
                     </div>
 
-                    <h4>Digtal Marketing</h4>
+                    <h4>Art & Humanities</h4>
 
-                    <p>25 Courses</p>
+                    <p>76 Courses</p>
                 </div>
 
                 <div className='category_card cursor-pointer'>
@@ -48,9 +48,9 @@ const CategoryCard = () => {
                         <img src={img3} alt="Marketing icon" />
                     </div>
 
-                    <h4>Digtal Marketing</h4>
+                    <h4>Personal Development</h4>
 
-                    <p>25 Courses</p>
+                    <p>22 Courses</p>
                 </div>
 
                 <div className='category_card cursor-pointer'>
@@ -58,9 +58,9 @@ const CategoryCard = () => {
                         <img src={img4} alt="Marketing icon" />
                     </div>
 
-                    <h4>Digtal Marketing</h4>
+                    <h4>IT and Software</h4>
 
-                    <p>25 Courses</p>
+                    <p>110 Courses</p>
                 </div>
 
                 <div className='category_card cursor-pointer'>
@@ -68,13 +68,13 @@ const CategoryCard = () => {
                         <img src={img5} alt="Marketing icon" />
                     </div>
 
-                    <h4>Digtal Marketing</h4>
+                    <h4>Graphic Design</h4>
 
-                    <p>25 Courses</p>
+                    <p>5 Courses</p>
                 </div>
             </div>
-          </>
-        
+        </>
+
     )
 }
 

@@ -1,5 +1,3 @@
-import { lazy } from "react";
-import * as ReactDOM from 'react-dom/client';
 import { createBrowserRouter } from 'react-router-dom';
 import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
@@ -9,10 +7,6 @@ import Dhome from "../Dashboard/Dhome";
 import Kurs from "../Dashboard/Kurslar";
 import Buyurtmachilar from "../Dashboard/Buyurtmachilar";
 import Xizmatlar from "../Dashboard/Xizmatlar";
-
-// const App = lazy(() => import("../App"));
-// const Error = lazy(() => import("../pages/Error"));
-// const Home = lazy(() => import("../pages/Home"));
 
 import App from "../App";
 import Error from "../pages/Error";
@@ -68,12 +62,6 @@ const router = createBrowserRouter([
                 path: "/dashboard/user",
                 element: <User />
             }
-            // {
-            //     path:"/student/:id",
-            // },
-            // {
-            //     path:"/course?id=:id",
-            // }
         ],
     },
 ]);

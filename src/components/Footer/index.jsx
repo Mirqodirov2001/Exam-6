@@ -27,7 +27,7 @@ const Footer = () => {
           <div className='footer_2'>
             <p className='title'>Quick Links</p>
 
-            <div className='f_links'>
+            <div className='f_links text-white'>
               <a href='/'>About</a>
               <a href='/'>Blog</a>
               <a href='#courses'>Course</a>
